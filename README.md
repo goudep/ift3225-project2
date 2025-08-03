@@ -1,7 +1,5 @@
 # Projet 2: Application de gestion de profils
 
----
-
 ## Informations sur le Cours
 
 **Université**: Université de Montréal
