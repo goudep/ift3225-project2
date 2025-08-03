@@ -22,6 +22,7 @@
 ## 2. Clé de Connexion MongoDB (MongoDB Connection Key)
 
 Voici la clé de connexion pour notre base de données MongoDB Atlas.
+
 MONGO_URI=mongodb+srv://mayudi69:RE0hccNDHKrFycQB@cluster0.ki6zved.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 ---
