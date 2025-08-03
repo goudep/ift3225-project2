@@ -1,13 +1,10 @@
 # Projet 2: Application de gestion de profils
 
-## Informations sur le Cours
-
 **Université**: Université de Montréal
 **Département**: DIRO
 **Cours**: IFT 3225 - Technologie de l'Internet
 
 ---
-
 ## 1. Coordonnées du Binôme (Team Information)
 
 * **Membre 1 (Member 1):**
@@ -26,8 +23,26 @@ Pour installer et exécuter cette application MERN, veuillez suivre les étapes 
 -   Node.js (v18 ou supérieur)
 -   npm (v9 ou supérieur)
 -   Git
+### 2.2 Principales Dépendances (Key Dependencies) 
+Notre projet utilise les technologies et librairies principales suivantes. Toutes ces dépendances seront automatiquement installées en exécutant la commande `npm install` dans les dossiers `frontend` et `backend` respectivement. 
 
-### 2.2 Étape 1 : Obtenir le Code Source (Get the Source Code)
+**Backend:** 
+* Express.js 
+* Mongoose 
+* JSON Web Token (jsonwebtoken) 
+* Bcrypt.js 
+* CORS 
+* Axios 
+* Dotenv 
+
+**Frontend:** 
+* React 
+* React Router DOM 
+* Axios 
+* Bootstrap & React-Bootstrap 
+* Bootstrap Icons 
+* JWT-Decode
+### 2.3 Étape 1 : Obtenir le Code Source (Get the Source Code)
 
 Clonez le projet depuis notre dépôt Git.
 ```bash
