@@ -107,3 +107,10 @@ L'application nécessite l'exécution simultanée du serveur backend et du clien
 
 L'application est maintenant prête à être utilisée.
 
+## Note de sécurité (secrets)
+
+- Le fichier `.env` contient des informations sensibles et **ne doit jamais être versionné**.
+- Ce dépôt ne fournit **aucune valeur réelle** (mots de passe, clés API, secrets JWT, URI de base de données).
+- Utilisez un fichier `.env` local et, si nécessaire, un modèle `.env.example` (sans secrets).
+
+En cas de suspicion d’exposition d’un secret, **faites immédiatement une rotation** des clés concernées.
