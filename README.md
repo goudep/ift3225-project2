@@ -61,13 +61,13 @@ cd ift3225-project2
 3.  Ajoutez le contenu suivant au fichier `.env` en remplaçant les valeurs par les vôtres :
     ```
     # Clé de connexion MongoDB
-    MONGO_URI=mongodb+srv://mayudi69:RE0hccNDHKrFycQB@cluster0.ki6zved.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    MONGO_URI=
 
     # Secret pour signer les JWT
-    JWT_SECRET=mysecretkey20253225E
+    JWT_SECRET=
 
     # Clé API pour la validation des courriels (SendGrid)
-    SENDGRID_API_KEY=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
+    SENDGRID_API_KEY=
     ```
 
 4.  Installez les dépendances du backend.
@@ -107,15 +107,3 @@ L'application nécessite l'exécution simultanée du serveur backend et du clien
 
 L'application est maintenant prête à être utilisée.
 
-## Note de sécurité (secrets)
-
-Ce dépôt n’inclut **aucun secret** (mots de passe, clés API, JWT secret, URI de base de données, etc.).
-La configuration se fait via des **variables d’environnement** dans un fichier `.env` (non versionné) et un modèle
-`.env.example` est fourni à titre d’exemple.
-
-Si vous clonez le projet :
-1) Copiez `.env.example` vers `.env`
-2) Renseignez vos valeurs locales
-3) Vérifiez que `.env` est bien ignoré par Git (`.gitignore`)
-
-En cas de suspicion d’exposition de secrets, **faites une rotation immédiate** des clés concernées.
