@@ -107,3 +107,15 @@ L'application nécessite l'exécution simultanée du serveur backend et du clien
 
 L'application est maintenant prête à être utilisée.
 
+## Note de sécurité (secrets)
+
+Ce dépôt n’inclut **aucun secret** (mots de passe, clés API, JWT secret, URI de base de données, etc.).
+La configuration se fait via des **variables d’environnement** dans un fichier `.env` (non versionné) et un modèle
+`.env.example` est fourni à titre d’exemple.
+
+Si vous clonez le projet :
+1) Copiez `.env.example` vers `.env`
+2) Renseignez vos valeurs locales
+3) Vérifiez que `.env` est bien ignoré par Git (`.gitignore`)
+
+En cas de suspicion d’exposition de secrets, **faites une rotation immédiate** des clés concernées.
